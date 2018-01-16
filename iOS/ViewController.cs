@@ -87,7 +87,7 @@ namespace MyTableView.iOS
 
 				tableView.DeselectRow (indexPath, true);
 
-				//Raise Event
+				//Raise Event 呼叫,喚起
 
 				EventHandler<TitleSelectedEventArgs > handle = TitleSelected;
 
